@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{42F0F324-8310-C853-B5B4-294151422E95}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameManager.cs" Line="50" Column="54" />
+      <File FileName="Assets/Scripts/GameUI.cs" />
+      <File FileName="Assets/Scripts/Block.cs" Line="16" Column="23" />
+      <File FileName="Assets/Scripts/SongData.cs" />
+      <File FileName="Assets/Scripts/Track.cs" />
+      <File FileName="Assets/Scripts/VelocityTracker.cs" />
+      <File FileName="Assets/Scripts/MissHitDetector.cs" Line="13" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Ball_Ninja" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="GameManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c9c5b21b-94d1-4144-8beb-463fa6234ec0" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
