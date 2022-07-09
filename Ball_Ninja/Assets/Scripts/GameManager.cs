@@ -44,16 +44,18 @@ public class GameManager : MonoBehaviour
         lifeTime -= wrongBlockLife;
     }
 
+    
     void Update()
     {
         // increase lifetime over time
-        lifeTime = Mathf.MoveTowards(lifeTime, 1.0f, lifeRegenRate * Time.deltaTime);
+        //lifeTime = Mathf.MoveTowards(lifeTime, 1.0f, lifeRegenRate* Time.deltaTime);
+
 
         if (lifeTime <= 0.0f)
             LoseGame();
 
-        // update the lifetime bar
-        GameUI.instance.UpdateLifetimeBar();
+        
+        GameUI.instance.UpdateLifetimeBar(); // update the lifetime bar
     }
 
     // called when the song is over
