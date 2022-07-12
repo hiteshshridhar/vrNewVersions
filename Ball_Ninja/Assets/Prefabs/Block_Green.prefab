@@ -48,12 +48,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d86a670ee70d04aa4158957236ff85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
   brokenBlockLeft: {fileID: 347994726576357955}
   brokenBlockRight: {fileID: 347994726017068273}
-  brokenBlockForce: 0
-  brokenBlockTorque: 0
-  brokenBlockDestroyDelay: 0
+  brokenBlockForce: 1
+  brokenBlockTorque: 1
+  brokenBlockDestroyDelay: 0.1
 --- !u!65 &582436107207330504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104,7 +104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9ab2de1f6b2c1ba49a8e5e3cb0545871, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.556
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9ab2de1f6b2c1ba49a8e5e3cb0545871, type: 3}
       propertyPath: m_LocalRotation.w
@@ -277,7 +277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 407c8e8f37c5bf4448a36f56b7cfaa36, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.569
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 407c8e8f37c5bf4448a36f56b7cfaa36, type: 3}
       propertyPath: m_LocalRotation.w

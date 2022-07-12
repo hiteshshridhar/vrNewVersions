@@ -1,0 +1,2 @@
+/Users/hiteshshridhar/Documents/unityProject/vrNewVersions/Ball_Ninja/obj/Debug/Unity.XR.Management.Samples.Editor.csproj.AssemblyReference.cache
+/Users/hiteshshridhar/Documents/unityProject/vrNewVersions/Ball_Ninja/obj/Debug/Unity.XR.Management.Samples.Editor.csproj.CoreCompileInputs.cache

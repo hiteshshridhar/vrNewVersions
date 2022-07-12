@@ -1,9 +1,9 @@
-﻿<Properties StartupConfiguration="{42F0F324-8310-C853-B5B4-294151422E95}|">
+﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameUI.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="50" Column="54" />
-      <File FileName="Assets/Scripts/Block.cs" />
+      <File FileName="Assets/Scripts/Block.cs" Line="84" Column="1" />
+      <File FileName="Assets/Scripts/GameUI.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SongData.cs" />
       <File FileName="Assets/Scripts/Track.cs" />
       <File FileName="Assets/Scripts/VelocityTracker.cs" />
@@ -13,9 +13,11 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Ball_Ninja" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="GameUI.cs" selected="True" />
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="GameManager.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
