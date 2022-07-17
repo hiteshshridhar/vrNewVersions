@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637917587290000000
-    m_Hash: 630369919
+      ticks: 637935245980000000
+    m_Hash: 3195183032
   m_LockFileStatus:
     m_FilePath: /Users/hiteshshridhar/Documents/unityProject/vrNewVersions/Ball_Ninja/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637917587290000000
-    m_Hash: 3143219243
+      ticks: 637935245980000000
+    m_Hash: 1777169926
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -1153,6 +1153,257 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
+    - packageId: com.unity.xr.arfoundation@4.1.10
+      testable: 0
+      isDirectDependency: 1
+      version: 4.1.10
+      source: 1
+      resolvedPath: /Users/hiteshshridhar/Documents/unityProject/vrNewVersions/Ball_Ninja/Library/PackageCache/com.unity.xr.arfoundation@4.1.10
+      assetPath: Packages/com.unity.xr.arfoundation
+      name: com.unity.xr.arfoundation
+      displayName: AR Foundation
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "A collection of MonoBehaviours and C# utilities for working with
+        AR Subsystems. \n\nIncludes: \n\u25AA GameObject menu items for creating
+        an AR setup \n\u25AA MonoBehaviours that control AR session lifecycle and
+        create GameObjects from detected, real-world trackable features \n\u25AA
+        Scale handling \n\u25AA Face tracking\n\nSamples available at https://github.com/Unity-Technologies/arfoundation-samples"
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.12
+        - 1.0.0-preview.13
+        - 1.0.0-preview.14
+        - 1.0.0-preview.17
+        - 1.0.0-preview.18
+        - 1.0.0-preview.19
+        - 1.0.0-preview.20
+        - 1.0.0-preview.22
+        - 1.1.0-preview.6
+        - 1.5.0-preview.2
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 2.0.2
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.1
+        - 2.1.3
+        - 2.1.4
+        - 2.1.8
+        - 2.1.10
+        - 2.1.14
+        - 2.1.16
+        - 2.1.18
+        - 2.1.19
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
+        - 2.2.0-preview.6
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.6
+        - 3.0.1
+        - 3.1.0-preview.1
+        - 3.1.0-preview.3
+        - 3.1.0-preview.4
+        - 3.1.0-preview.6
+        - 3.1.0-preview.7
+        - 3.1.0-preview.8
+        - 3.1.3
+        - 3.1.5
+        - 3.1.6
+        - 3.1.10
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.2
+        - 4.0.8
+        - 4.0.9
+        - 4.0.10
+        - 4.0.12
+        - 4.1.0-preview.1
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        - 4.1.3
+        - 4.1.5
+        - 4.1.7
+        - 4.1.9
+        - 4.1.10
+        - 4.2.0-pre.2
+        - 4.2.0-pre.3
+        - 4.2.0-pre.4
+        - 4.2.0-pre.5
+        - 4.2.0-pre.7
+        - 4.2.0-pre.8
+        - 4.2.0-pre.9
+        - 4.2.0-pre.10
+        - 4.2.0-pre.12
+        - 4.2.0
+        - 4.2.1
+        - 4.2.2
+        - 4.2.3
+        - 5.0.0-pre.5
+        - 5.0.0-pre.6
+        - 5.0.0-pre.7
+        - 5.0.0-pre.8
+        - 5.0.0-pre.9
+        - 5.0.0-pre.12
+        compatible:
+        - 1.0.0-preview.12
+        - 1.0.0-preview.13
+        - 1.0.0-preview.14
+        - 1.0.0-preview.17
+        - 1.0.0-preview.18
+        - 1.0.0-preview.19
+        - 1.0.0-preview.20
+        - 1.0.0-preview.22
+        - 1.1.0-preview.6
+        - 1.5.0-preview.2
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 2.0.2
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.1
+        - 2.1.3
+        - 2.1.4
+        - 2.1.8
+        - 2.1.10
+        - 2.1.14
+        - 2.1.16
+        - 2.1.18
+        - 2.1.19
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
+        - 2.2.0-preview.6
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.6
+        - 3.0.1
+        - 3.1.0-preview.1
+        - 3.1.0-preview.3
+        - 3.1.0-preview.4
+        - 3.1.0-preview.6
+        - 3.1.0-preview.7
+        - 3.1.0-preview.8
+        - 3.1.3
+        - 3.1.5
+        - 3.1.6
+        - 3.1.10
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.2
+        - 4.0.8
+        - 4.0.9
+        - 4.0.10
+        - 4.0.12
+        - 4.1.0-preview.1
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        - 4.1.3
+        - 4.1.5
+        - 4.1.7
+        - 4.1.9
+        - 4.1.10
+        - 4.2.0-pre.2
+        - 4.2.0-pre.3
+        - 4.2.0-pre.4
+        - 4.2.0-pre.5
+        - 4.2.0-pre.7
+        - 4.2.0-pre.8
+        - 4.2.0-pre.9
+        - 4.2.0-pre.10
+        - 4.2.0-pre.12
+        - 4.2.0
+        - 4.2.1
+        - 4.2.2
+        - 4.2.3
+        verified: 4.1.10
+      dependencies:
+      - name: com.unity.xr.arsubsystems
+        version: 4.1.10
+      - name: com.unity.xr.management
+        version: 4.0.1
+      - name: com.unity.modules.particlesystem
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.xr.arsubsystems
+        version: 4.1.10
+      - name: com.unity.subsystemregistration
+        version: 1.1.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.xr.management
+        version: 4.2.1
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.8
+      - name: com.unity.modules.particlesystem
+        version: 1.0.0
+      keywords:
+      - xr
+      - ar
+      - augmented
+      - reality
+      - utility
+      - utilities
+      - foundation
+      - core
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637871118640000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+        revision: 68e960c87558b909d246af7c03a5c51777e937e0
+        path: 
     - packageId: com.unity.xr.interaction.toolkit@2.0.2
       testable: 0
       isDirectDependency: 1
@@ -1690,7 +1941,7 @@ m_PackageAssets:
       - name: com.unity.xr.interactionsubsystems
         version: 1.0.1
       - name: com.unity.xr.arsubsystems
-        version: 4.1.9
+        version: 4.1.10
       keywords:
       - windows
       - ar
@@ -3483,13 +3734,17 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.1-preview.3
+        - 1.0.0
         - 1.0.1
         compatible:
+        - 0.0.1-preview.3
+        - 1.0.0
         - 1.0.1
         verified: 1.0.1
       dependencies:
       - name: com.unity.subsystemregistration
-        version: 1.0.6
+        version: 1.0.5
       resolvedDependencies:
       - name: com.unity.subsystemregistration
         version: 1.1.0
@@ -3513,72 +3768,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637056471600000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git@github.cds.internal.unity3d.com:unity/com.unity.xr.interactionsubsystems.git
-        revision: e4d74ea2d737ed36976840f753a2817ef9e4e56d
-        path: 
-    - packageId: com.unity.xr.arsubsystems@4.1.9
-      testable: 0
-      isDirectDependency: 0
-      version: 4.1.9
-      source: 1
-      resolvedPath: /Users/hiteshshridhar/Documents/unityProject/vrNewVersions/Ball_Ninja/Library/PackageCache/com.unity.xr.arsubsystems@4.1.9
-      assetPath: Packages/com.unity.xr.arsubsystems
-      name: com.unity.xr.arsubsystems
-      displayName: AR Subsystems
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Contains definitions for AR Subsystems. This package is a dependency
-        of provider packages, as well as AR Foundation.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 4.1.9
-        compatible:
-        - 4.1.9
-        verified: 4.1.9
-      dependencies:
-      - name: com.unity.subsystemregistration
-        version: 1.1.0
-      resolvedDependencies:
-      - name: com.unity.subsystemregistration
-        version: 1.1.0
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      keywords:
-      - subsystem
-      - XR
-      - AR
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-        revision: 2094ce3ed076044be0e3a742424fd720dfd838ce
+        revision: c9d1e6a52c5806d8ec4d9f74ec9eaaf54f07d2c6
         path: 
     - packageId: com.unity.xr.legacyinputhelpers@2.1.8
       testable: 0
@@ -3886,6 +4082,151 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
         revision: 64e94d2afd538c154dd9f9fad875ef0afdc2ecd1
         path: 
+    - packageId: com.unity.xr.arsubsystems@4.1.10
+      testable: 0
+      isDirectDependency: 0
+      version: 4.1.10
+      source: 1
+      resolvedPath: /Users/hiteshshridhar/Documents/unityProject/vrNewVersions/Ball_Ninja/Library/PackageCache/com.unity.xr.arsubsystems@4.1.10
+      assetPath: Packages/com.unity.xr.arsubsystems
+      name: com.unity.xr.arsubsystems
+      displayName: AR Subsystems
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Contains definitions for AR Subsystems. This package is a dependency
+        of provider packages, as well as AR Foundation.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.2
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.14
+        - 2.1.16
+        - 2.1.18
+        - 2.1.19
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
+        - 2.2.0-preview.6
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0
+        - 3.0.2
+        - 3.1.0-preview.1
+        - 3.1.0-preview.2
+        - 3.1.0-preview.4
+        - 3.1.0-preview.6
+        - 3.1.0-preview.7
+        - 3.1.0-preview.8
+        - 3.1.3
+        - 3.1.5
+        - 3.1.6
+        - 3.1.10
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.1
+        - 4.0.8
+        - 4.0.9
+        - 4.0.10
+        - 4.0.12
+        - 4.1.0-preview.1
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        - 4.1.3
+        - 4.1.5
+        - 4.1.7
+        - 4.1.9
+        - 4.1.10
+        - 4.2.0-pre.2
+        - 4.2.0-pre.3
+        - 4.2.0-pre.4
+        - 4.2.0-pre.5
+        - 4.2.0-pre.7
+        - 4.2.0-pre.8
+        - 4.2.0-pre.9
+        - 4.2.0-pre.10
+        - 4.2.0-pre.12
+        - 4.2.0
+        - 4.2.1
+        - 4.2.2
+        - 4.2.3
+        - 5.0.0-pre.5
+        - 5.0.0-pre.6
+        - 5.0.0-pre.7
+        - 5.0.0-pre.8
+        - 5.0.0-pre.9
+        - 5.0.0-pre.12
+        compatible:
+        - 4.1.9
+        - 4.1.10
+        - 4.2.0-pre.2
+        - 4.2.0-pre.3
+        - 4.2.0-pre.4
+        - 4.2.0-pre.5
+        - 4.2.0-pre.7
+        - 4.2.0-pre.8
+        - 4.2.0-pre.9
+        - 4.2.0-pre.10
+        - 4.2.0-pre.12
+        - 4.2.0
+        - 4.2.1
+        - 4.2.2
+        - 4.2.3
+        verified: 4.1.10
+      dependencies:
+      - name: com.unity.subsystemregistration
+        version: 1.1.0
+      resolvedDependencies:
+      - name: com.unity.subsystemregistration
+        version: 1.1.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords:
+      - subsystem
+      - XR
+      - AR
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637871118390000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+        revision: 68e960c87558b909d246af7c03a5c51777e937e0
+        path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
       isDirectDependency: 0
@@ -3914,6 +4255,7 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 2.0.2
+        - 2.0.3
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
@@ -3922,6 +4264,7 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 2.0.2
+        - 2.0.3
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -3986,6 +4329,7 @@ m_PackageAssets:
         - 1.3.2
         - 1.4.0
         - 1.4.1
+        - 1.4.2
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -4000,6 +4344,7 @@ m_PackageAssets:
         - 1.3.2
         - 1.4.0
         - 1.4.1
+        - 1.4.2
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -4130,9 +4475,45 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.9-preview.1
+        - 1.0.9-preview.2
+        - 1.0.10-preview
+        - 1.0.11-preview.1
+        - 1.1.0-preview.1
+        - 1.1.0-preview.2
+        - 1.2.0-preview.1
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 3.0.0
+        - 3.0.1
+        - 4.0.0
+        - 4.0.1
+        - 4.0.2
+        - 4.0.3
+        - 4.0.4
         - 4.1.0
+        - 4.2.0
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 6.0.0-pre.2
+        - 6.0.0-pre.3
+        - 6.0.0-pre.4
+        - 6.0.0
+        - 6.0.1
+        - 6.0.2
+        - 6.0.3
+        - 7.0.0-pre.3
+        - 7.0.0-pre.4
+        - 7.0.0
+        - 8.0.0-pre.1
+        - 8.0.0-pre.2
         compatible:
         - 4.1.0
+        - 4.2.0
         verified: 4.1.0
       dependencies:
       - name: com.unity.2d.sprite
@@ -4166,7 +4547,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637781310790000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -4195,7 +4576,27 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.1
+        - 1.0.0-preview.4
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 4.0.0
+        - 4.0.1
         - 4.0.2
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 5.0.1
+        - 5.0.2
         compatible:
         - 4.0.2
         verified: 4.0.2
@@ -4216,7 +4617,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637637511040000000
       documentationUrl: 
       hasRepository: 1
       repository:
