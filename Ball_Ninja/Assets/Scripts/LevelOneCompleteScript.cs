@@ -21,9 +21,9 @@ public class LevelOneCompleteScript : MonoBehaviour
     {
         GameManager.instance.leftSwordTracker = swordLeft.GetComponent<VelocityTracker>();
         GameManager.instance.rightSwordTracker = swordRight.GetComponent<VelocityTracker>();
-        teleportGO.SetActive(false);
-        swordLeft.SetActive(true);
-        swordRight.SetActive(true);
+        teleportGO.SetActive(true);
+        swordLeft.SetActive(false);
+        swordRight.SetActive(false);
         //SceneManager.LoadScene(1);
         
     }
