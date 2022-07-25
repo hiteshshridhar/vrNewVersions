@@ -18,7 +18,7 @@ public class Track : MonoBehaviour
     void StartSong()
     {
         audioSource.PlayOneShot(song.song);
-        Invoke("SongIsOver", song.song.length);
+        //Invoke("SongIsOver", song.song.length);
     }
 
     void Update()
@@ -29,7 +29,7 @@ public class Track : MonoBehaviour
     // called when the song ends
     void SongIsOver()
     {
-        GameManager.instance.WinGame();
+        //GameManager.instance.WinGame();
     }
 
     // To Draw different lines and shapes for our track

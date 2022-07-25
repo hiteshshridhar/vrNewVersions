@@ -1,98 +1,98 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public enum BlockColor
-{
-    Green,
-    Red
-}
-public class Block : MonoBehaviour
-{
-    // Start is called before the first frame update
-    public BlockColor color;
+//public enum BlockColor
+//{
+//    Green,
+//    Red
+//}
+//public class Block : MonoBehaviour
+//{
+//    // Start is called before the first frame update
+//    public BlockColor color;
 
-    public GameObject brokenBlockLeft;
-    public GameObject brokenBlockRight;
+//    public GameObject brokenBlockLeft;
+//    public GameObject brokenBlockRight;
 
 
-    public float brokenBlockForce;
-    public float brokenBlockTorque;
-    public float brokenBlockDestroyDelay;
+//    public float brokenBlockForce;
+//    public float brokenBlockTorque;
+//    public float brokenBlockDestroyDelay;
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("SwordRed"))
-        {
-            // are we a red block?
-            if (color == BlockColor.Red )
+//    void OnTriggerEnter(Collider other)
+//    {
+//        if (other.CompareTag("SwordRed"))
+//        {
+//            // are we a red block?
+//            if (color == BlockColor.Red )
             
-            {
-                GameManager.instance.AddScore();   
-            }
-            else
-            {
-                GameManager.instance.HitWrongBlock();
-            }
-            Hit();
-        }
+//            {
+//                GameManager.instance.AddScore();   
+//            }
+//            else
+//            {
+//                GameManager.instance.HitWrongBlock();
+//            }
+//            Hit();
+//        }
 
-        else if (other.CompareTag("SwordGreen"))
-        {
-            if (color == BlockColor.Green && GameManager.instance.leftSwordTracker.velocity.magnitude >= GameManager.instance.swordHitVelocityThreshold)
+//        else if (other.CompareTag("SwordGreen"))
+//        {
+//            if (color == BlockColor.Green && GameManager.instance.leftSwordTracker.velocity.magnitude >= GameManager.instance.swordHitVelocityThreshold)
             
-            {
-                GameManager.instance.AddScore();
-            }
-            else
-            {
-                GameManager.instance.HitWrongBlock();
-            }
-            Hit();
-        }
-    }
+//            {
+//                GameManager.instance.AddScore();
+//            }
+//            else
+//            {
+//                GameManager.instance.HitWrongBlock();
+//            }
+//            Hit();
+//        }
+//    }
 
-    public void Hit()
-    {
-        // enable the broken pieces
-        brokenBlockLeft.SetActive(true);
-        brokenBlockRight.SetActive(true);
+//    public void Hit()
+//    {
+//        // enable the broken pieces
+//        brokenBlockLeft.SetActive(true);
+//        brokenBlockRight.SetActive(true);
 
-        //remove them as children 
-        brokenBlockLeft.transform.parent = null;
-        brokenBlockRight.transform.parent = null;
+//        //remove them as children 
+//        brokenBlockLeft.transform.parent = null;
+//        brokenBlockRight.transform.parent = null;
 
-        //adding force to the broken blocks
-        Rigidbody leftRig = brokenBlockLeft.GetComponent<Rigidbody>();
-        Rigidbody rightRig = brokenBlockRight.GetComponent<Rigidbody>();
+//        //adding force to the broken blocks
+//        Rigidbody leftRig = brokenBlockLeft.GetComponent<Rigidbody>();
+//        Rigidbody rightRig = brokenBlockRight.GetComponent<Rigidbody>();
 
-        leftRig.AddForce(-transform.right * brokenBlockForce, ForceMode.Impulse);
-        rightRig.AddForce(transform.right * brokenBlockForce, ForceMode.Impulse);
+//        leftRig.AddForce(-transform.right * brokenBlockForce, ForceMode.Impulse);
+//        rightRig.AddForce(transform.right * brokenBlockForce, ForceMode.Impulse);
 
-        //adding torque to blocks
+//        //adding torque to blocks
 
-        leftRig.AddTorque(-transform.forward * brokenBlockTorque, ForceMode.Impulse);
-        rightRig.AddTorque(transform.forward * brokenBlockTorque, ForceMode.Impulse);
+//        leftRig.AddTorque(-transform.forward * brokenBlockTorque, ForceMode.Impulse);
+//        rightRig.AddTorque(transform.forward * brokenBlockTorque, ForceMode.Impulse);
 
-        //destroy the broken pieces after a time
-        Destroy(brokenBlockLeft, brokenBlockDestroyDelay);
-        Destroy(brokenBlockRight, brokenBlockDestroyDelay);
+//        //destroy the broken pieces after a time
+//        Destroy(brokenBlockLeft, brokenBlockDestroyDelay);
+//        Destroy(brokenBlockRight, brokenBlockDestroyDelay);
 
-        // Invoke("SeperateBlock", 1.0f);
-        Destroy(gameObject);
+//        // Invoke("SeperateBlock", 1.0f);
+//        Destroy(gameObject);
 
-    }
+//    }
 
-    public void SeperateBlock()
-    {
-        //Destroy main block
-        Destroy(gameObject);
-    }
+//    public void SeperateBlock()
+//    {
+//        //Destroy main block
+//        Destroy(gameObject);
+//    }
 
-}
+//}
 
 
-/*
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -176,4 +176,4 @@ public class Block : MonoBehaviour
         // destroy the main block
         Destroy(gameObject);
     }
-}*/
+}

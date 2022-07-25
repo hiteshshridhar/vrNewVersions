@@ -12,6 +12,11 @@ public class MissHitDetector : MonoBehaviour
             other.GetComponent<Block>().Hit();
             GameManager.instance.MissBlock();
         }
+
+        //if(other.CompareTag("LastBlock"))
+        //{
+        //    Debug.Log("Last block detected");
+        //}
     }
 }
 

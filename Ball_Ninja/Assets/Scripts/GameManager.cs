@@ -58,14 +58,26 @@ public class GameManager : MonoBehaviour
     }
 
     // called when the song is over
-    public void WinGame()
+    public void LoadLevel2Game()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     // called when the lifetime hits 0
     public void LoseGame()
     {
+        //Add a UI button to restart the game
+        SceneManager.LoadScene(0);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void RestartGame()
+    {
+        //Add a UI button to restart the game
         SceneManager.LoadScene(0);
     }
 }
