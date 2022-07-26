@@ -112,6 +112,7 @@ public class Block : MonoBehaviour
     public float brokenBlockForce;
     public float brokenBlockTorque;
     public float brokenBlockDestroyDelay;
+    
 
     void OnTriggerEnter(Collider other)
     {

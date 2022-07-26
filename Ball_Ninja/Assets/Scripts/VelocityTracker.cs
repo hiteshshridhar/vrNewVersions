@@ -14,6 +14,8 @@ public class VelocityTracker : MonoBehaviour
         velocity = (transform.position - lastFramePos) / Time.deltaTime;
         lastFramePos = transform.position;
     }
+
+    
 }
 
 /*

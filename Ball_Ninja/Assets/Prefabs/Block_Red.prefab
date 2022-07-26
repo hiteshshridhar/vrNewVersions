@@ -72,6 +72,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 582436107207330551, guid: 588eb84cf491549ee87dce3bccb73f1b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1798515956158736394}
+    - target: {fileID: 582436107207330551, guid: 588eb84cf491549ee87dce3bccb73f1b, type: 3}
       propertyPath: brokenBlockForce
       value: 1
       objectReference: {fileID: 0}
@@ -117,3 +121,8 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: f6c78e4183e478d418975ab0788c946b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 588eb84cf491549ee87dce3bccb73f1b, type: 3}
+--- !u!82 &1798515956158736394 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1096805428458763610, guid: 588eb84cf491549ee87dce3bccb73f1b, type: 3}
+  m_PrefabInstance: {fileID: 1715095213266410832}
+  m_PrefabAsset: {fileID: 0}

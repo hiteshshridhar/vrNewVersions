@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     public VelocityTracker leftSwordTracker;
     public VelocityTracker rightSwordTracker;
 
+    
+
     // creating a singleton instance
     public static GameManager instance;
 
@@ -51,11 +53,22 @@ public class GameManager : MonoBehaviour
         //lifeTime = Mathf.MoveTowards(lifeTime, 1.0f, lifeRegenRate * Time.deltaTime);
 
         if (lifeTime <= 0.0f)
-            LoseGame();
+        {
+            if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("level1"))
+            {
+                SceneManager.LoadScene(0);
+            }
+            else if(SceneManager.GetActiveScene() == SceneManager.GetSceneByName("level2"))
+            {
+                SceneManager.LoadScene(1);
+            }
+        }
 
         
         GameUI.instance.UpdateLifetimeBar(); // update the lifetime bar
     }
+
+    
 
     // called when the song is over
     public void LoadLevel2Game()

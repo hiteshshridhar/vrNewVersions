@@ -9,6 +9,7 @@ public class ScoreTracker : MonoBehaviour
     [SerializeField] private GameObject gameStatusBoard;
     [SerializeField] private GameObject scoreBoard;
     [SerializeField] private LevelOneCompleteScript levelOneCompleteScript;
+    public GameObject MenuBoard;
 
     internal ScoreTracker() { instance = this; }
 
@@ -19,6 +20,7 @@ public class ScoreTracker : MonoBehaviour
             Debug.Log("You Won");
             gameStatusBoard.SetActive(true);
             scoreBoard.SetActive(false);
+            MenuBoard.SetActive(true);
             levelOneCompleteScript.OnLevelOnCompleteFunc();
         }
     }

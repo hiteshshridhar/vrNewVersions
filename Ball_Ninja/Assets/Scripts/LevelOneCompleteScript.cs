@@ -8,7 +8,9 @@ public class LevelOneCompleteScript : MonoBehaviour
     public GameObject swordRight;
     public GameObject teleportGO;
     
-    public Track track;
+    public GameObject level1;
+    public GameObject StartBoard;
+    public GameObject ScoreBoard;
 
     public void OnLevelOnCompleteFunc()
     {
@@ -17,15 +19,13 @@ public class LevelOneCompleteScript : MonoBehaviour
         teleportGO.SetActive(true);
     }
 
-    public void OnTeleport()
+    public void OnPlayBtnClick()
     {
-        GameManager.instance.leftSwordTracker = swordLeft.GetComponent<VelocityTracker>();
-        GameManager.instance.rightSwordTracker = swordRight.GetComponent<VelocityTracker>();
-        teleportGO.SetActive(true);
-        swordLeft.SetActive(false);
-        swordRight.SetActive(false);
-        //SceneManager.LoadScene(1);
-        
+        level1.SetActive(true);
+        StartBoard.SetActive(false);
+        ScoreBoard.SetActive(true);
+        swordLeft.SetActive(true);
+        swordRight.SetActive(true);
     }
 }
 
