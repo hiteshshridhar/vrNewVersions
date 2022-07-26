@@ -2312,7 +2312,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1286186049}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1492766356}
+        m_TargetAssemblyTypeName: GAMEOVERMENU, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1286186049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3486,7 +3498,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2027383591}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1492766358}
+        m_TargetAssemblyTypeName: GAMEOVERMENU, Assembly-CSharp
+        m_MethodName: GoToLevel1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2027383591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3761,7 +3785,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2116069163}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1492766358}
+        m_TargetAssemblyTypeName: GAMEOVERMENU, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2116069163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5988,7 +6024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f39f56a76ee6478398c4de8f88b0918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  song: {fileID: 11400000, guid: 4593816d87d5448309da8433d5e612ea, type: 2}
+  song: {fileID: 11400000, guid: 7ab6f4f9c44e14883880404d45dca67b, type: 2}
   audioSource: {fileID: 8598576347014724027}
 --- !u!1 &8598576346931937057
 GameObject:
@@ -6092,14 +6128,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77a33138aaba4940af895271a031be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 3
+  startTime: 2
   score: 0
   lifeTime: 1
   hitBlockScore: 10
   missBlockLife: 0.1
   wrongBlockLife: 0.08
   lifeRegenRate: 0.3
-  swordHitVelocityThreshold: 0.01
+  swordHitVelocityThreshold: 0.1
   leftSwordTracker: {fileID: 2294312221727911745}
   rightSwordTracker: {fileID: 5137052994014510119}
 --- !u!114 &8598576347014724006

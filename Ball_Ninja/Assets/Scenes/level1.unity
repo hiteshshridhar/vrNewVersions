@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f39f56a76ee6478398c4de8f88b0918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  song: {fileID: 11400000, guid: 4593816d87d5448309da8433d5e612ea, type: 2}
+  song: {fileID: 11400000, guid: ae3ad8785ea1d44e3b4decb642cdb1f3, type: 2}
   audioSource: {fileID: 948643344}
 --- !u!4 &94134412
 Transform:
