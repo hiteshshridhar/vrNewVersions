@@ -1615,3 +1615,21 @@ Received Import Request.
   path: Assets/GAMEOVERMENU.cs
   artifactKey: Guid(8af299a8df66542e2a488664cfe76e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/GAMEOVERMENU.cs using Guid(8af299a8df66542e2a488664cfe76e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2da2292b3b46baa4df0eaea0b84d58') in 0.006919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.760801 seconds.
+  path: Assets/Models/controller_l.fbx
+  artifactKey: Guid(8236231c87c6a43b9b4a6183cb1711d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/controller_l.fbx using Guid(8236231c87c6a43b9b4a6183cb1711d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8ea9ffd43507395cb70038d4d8c0dc') in 0.682018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.203052 seconds.
+  path: Assets/Models/controller_r.fbx
+  artifactKey: Guid(78d9e7fcbc538426889fee53b8117703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/controller_r.fbx using Guid(78d9e7fcbc538426889fee53b8117703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b8758fa128d71cae28c36bf206ec42') in 0.035657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.762442 seconds.
+  path: Assets/Scenes/level1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f60b803a006b773ab576363ad0e0ade') in 0.001701 seconds 
