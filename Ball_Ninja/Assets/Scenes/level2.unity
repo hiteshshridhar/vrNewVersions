@@ -7519,6 +7519,7 @@ GameObject:
   - component: {fileID: 8598576347096514739}
   - component: {fileID: 8598576347096514748}
   - component: {fileID: 8598576347096514738}
+  - component: {fileID: 8598576347096514750}
   m_Layer: 0
   m_Name: MissHitDetector
   m_TagString: Untagged
@@ -7526,6 +7527,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8598576347096514750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8598576347096514749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9191c3905caae40cfb1a7a31640cade8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8598576347428921456
 Transform:
   m_ObjectHideFlags: 0
