@@ -61,19 +61,18 @@
     <Compile Include="Assets/Scripts/LevelOneCompleteScript.cs" />
     <Compile Include="Assets/Scripts/VelocityTracker.cs" />
     <Compile Include="Assets/BlockEndScript.cs" />
-    <Compile Include="Assets/FlyCam.cs" />
     <Compile Include="Assets/Scripts/SongData.cs" />
     <Compile Include="Assets/Scripts/LevelTwoCompleteScript.cs" />
     <Compile Include="Assets/Scripts/ScoreTracker.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/GAMEOVERMENU.cs" />
     <Compile Include="Assets/CutSound.cs" />
+    <Compile Include="Assets/Scripts/LevelCompleteScript.cs" />
     <Compile Include="Assets/Scripts/Track.cs" />
     <Compile Include="Assets/MainMenuScript.cs" />
     <Compile Include="Assets/Scripts/ScoreTrackerLevel2.cs" />
     <Compile Include="Assets/Scripts/GameUI.cs" />
     <Compile Include="Assets/Scripts/Block.cs" />
-    <Compile Include="Assets/Scripts/LevelCompleteScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -788,6 +787,36 @@
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
       <HintPath>Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

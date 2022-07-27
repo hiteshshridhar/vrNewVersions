@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{42F0F324-8310-C853-B5B4-294151422E95}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreTracker.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MissHitDetector.cs">
     <Files>
       <File FileName="Assets/Scripts/SongData.cs" Line="12" Column="2" />
       <File FileName="Assets/Scripts/Track.cs" Line="2" Column="33" />
       <File FileName="Assets/Scripts/VelocityTracker.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MissHitDetector.cs" Line="16" Column="32" />
+      <File FileName="Assets/Scripts/MissHitDetector.cs" Line="22" Column="1" />
       <File FileName="Assets/MainMenuScript.cs" Line="6" Column="28" />
       <File FileName="Assets/BlockEndScript.cs" Line="11" Column="38" />
-      <File FileName="Assets/Scripts/ScoreTracker.cs" Line="31" Column="43" />
+      <File FileName="Assets/Scripts/ScoreTracker.cs" Line="33" Column="10" />
       <File FileName="Assets/Scripts/ScoreTrackerLevel2.cs" Line="26" Column="10" />
-      <File FileName="Assets/Scripts/BlockEndScriptLevel2.cs" />
+      <File FileName="Assets/Scripts/BlockEndScriptLevel2.cs" Line="11" Column="31" />
       <File FileName="Assets/Scripts/LevelCompleteScript.cs" Line="15" Column="17" />
       <File FileName="Assets/Scripts/LevelOneCompleteScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LevelTwoCompleteScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Block.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameUI.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +23,7 @@
           <Node name="Ball_Ninja" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="ScoreTracker.cs" selected="True" />
+                <Node name="MissHitDetector.cs" selected="True" />
               </Node>
             </Node>
           </Node>
