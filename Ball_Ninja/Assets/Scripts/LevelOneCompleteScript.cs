@@ -27,6 +27,11 @@ public class LevelOneCompleteScript : MonoBehaviour
         swordLeft.SetActive(true);
         swordRight.SetActive(true);
     }
+
+    public void OnQuit()
+    {
+        Application.Quit();
+    }
 }
 
 

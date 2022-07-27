@@ -32,12 +32,17 @@ public class Track : MonoBehaviour
         //GameManager.instance.WinGame();
     }
 
+    float SongLength()
+    {
+        return song.song.length / 2;
+    }
+
     // To Draw different lines and shapes for our track
     void OnDrawGizmos()
     {
         for (int i = 0; i < 100; i++)
         {
-            float beatLength = 60.0f / (float)song.bpm;
+            float beatLength = 30.0f / (float)song.bpm;
             float beatDist = beatLength * song.speed;
 
             Gizmos.DrawLine(transform.position + new Vector3(-1, 0, i * beatDist), transform.position + new Vector3(1, 0, i * beatDist));
