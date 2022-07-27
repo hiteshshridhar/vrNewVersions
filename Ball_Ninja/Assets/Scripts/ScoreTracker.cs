@@ -8,20 +8,28 @@ public class ScoreTracker : MonoBehaviour
     internal static ScoreTracker instance;
     [SerializeField] private GameObject gameStatusBoard;
     [SerializeField] private GameObject scoreBoard;
-    [SerializeField] private LevelOneCompleteScript levelOneCompleteScript;
+    [SerializeField] private LevelCompleteScript levelCompleteScript;
     public GameObject MenuBoard;
+    public AudioSource audioSource;
 
     internal ScoreTracker() { instance = this; }
 
     public void PointAchieved()
     {
-        if(GameManager.instance.score > requiredPoint)
+        Debug.Log(GameManager.instance.score);
+
+        if (GameManager.instance.score > requiredPoint)
         {
+            
+
             Debug.Log("You Won");
+
             gameStatusBoard.SetActive(true);
+
             scoreBoard.SetActive(false);
             MenuBoard.SetActive(true);
-            levelOneCompleteScript.OnLevelOnCompleteFunc();
+            levelCompleteScript.OnLevelOnCompleteFunc();
+            audioSource.Stop();
         }
     }
 }

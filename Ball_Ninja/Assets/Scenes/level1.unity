@@ -1289,7 +1289,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 948643345}
-        m_TargetAssemblyTypeName: LevelOneCompleteScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: LevelCompleteScript, Assembly-CSharp
         m_MethodName: OnPlayBtnClick
         m_Mode: 1
         m_Arguments:
@@ -2098,7 +2098,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -6.0167205e-10, y: -2.3664436, z: 6.63e-43, w: -2.2485104}
+  m_BoundingSphereOverride: {x: 4.5904e-41, y: 0, z: 0, w: 6e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -2167,7 +2167,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: -8679921383154817045, guid: 8236231c87c6a43b9b4a6183cb1711d0, type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -2807,13 +2807,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 948643340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5b860663dea14d4eb846dc2c6765e48, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ff949742520a45ed8499d641ed7ff2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   swordLeft: {fileID: 919132147503164887}
   swordRight: {fileID: 919132149446138846}
   teleportGO: {fileID: 1983539129}
-  level1: {fileID: 531033414}
+  level: {fileID: 531033414}
   StartBoard: {fileID: 1322211591}
   ScoreBoard: {fileID: 1793510708}
 --- !u!4 &952009465 stripped
@@ -4549,7 +4549,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: -8679921383154817045, guid: 78d9e7fcbc538426889fee53b8117703, type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -6503,18 +6503,6 @@ MonoBehaviour:
   m_Teleporting:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 948643345}
-        m_TargetAssemblyTypeName: LevelOneCompleteScript, Assembly-CSharp
-        m_MethodName: OnTeleport
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1983539135}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
@@ -6617,7 +6605,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 99e5d4b2134133b4ca8191a153c7a670, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -7038,8 +7026,9 @@ MonoBehaviour:
   requiredPoint: 200
   gameStatusBoard: {fileID: 1122649381}
   scoreBoard: {fileID: 1793510708}
-  levelOneCompleteScript: {fileID: 948643345}
+  levelCompleteScript: {fileID: 948643345}
   MenuBoard: {fileID: 1618819570}
+  audioSource: {fileID: 948643344}
 --- !u!1 &919132147503164887
 GameObject:
   m_ObjectHideFlags: 0

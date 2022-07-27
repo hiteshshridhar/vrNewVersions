@@ -57,22 +57,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/MissHitDetector.cs" />
+    <Compile Include="Assets/Scripts/BlockEndScriptLevel2.cs" />
     <Compile Include="Assets/Scripts/LevelOneCompleteScript.cs" />
     <Compile Include="Assets/Scripts/VelocityTracker.cs" />
     <Compile Include="Assets/BlockEndScript.cs" />
     <Compile Include="Assets/FlyCam.cs" />
     <Compile Include="Assets/Scripts/SongData.cs" />
+    <Compile Include="Assets/Scripts/LevelTwoCompleteScript.cs" />
     <Compile Include="Assets/Scripts/ScoreTracker.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/GAMEOVERMENU.cs" />
+    <Compile Include="Assets/CutSound.cs" />
     <Compile Include="Assets/Scripts/Track.cs" />
     <Compile Include="Assets/MainMenuScript.cs" />
+    <Compile Include="Assets/Scripts/ScoreTrackerLevel2.cs" />
     <Compile Include="Assets/Scripts/GameUI.cs" />
     <Compile Include="Assets/Scripts/Block.cs" />
-    <Compile Include="Assets/CutSound.cs" />
-    <Compile Include="Assets/Scripts/LevelTwoCompleteScript.cs" />
-    <Compile Include="Assets/Scripts/ScoreTrackerLevel2.cs" />
-    <Compile Include="Assets/Scripts/BlockEndScriptLevel2.cs" />
+    <Compile Include="Assets/Scripts/LevelCompleteScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
