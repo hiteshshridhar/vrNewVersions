@@ -5254,7 +5254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1618819571}
   m_Layer: 5
-  m_Name: MenuItems
+  m_Name: Menu Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6183,7 +6183,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -6822,7 +6822,7 @@ MonoBehaviour:
   isGlobal: 1
   priority: 0
   blendDistance: 0
-  weight: 1
+  weight: 0.1
   sharedProfile: {fileID: 11400000, guid: fdca51d2f68d0452cb97e80d023d9900, type: 2}
 --- !u!4 &2027710053
 Transform:
@@ -7106,7 +7106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requiredPoint: 200
-  gameStatusBoard: {fileID: 1122649381}
+  ReloadGame: {fileID: 0}
   scoreBoard: {fileID: 1793510708}
   levelCompleteScript: {fileID: 948643345}
   MenuBoard: {fileID: 1618819570}

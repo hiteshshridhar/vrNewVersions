@@ -6,7 +6,7 @@ public class ScoreTracker : MonoBehaviour
 {
     public int requiredPoint;
     internal static ScoreTracker instance;
-    [SerializeField] private GameObject gameStatusBoard;
+    [SerializeField] private GameObject ReloadGame;
     [SerializeField] private GameObject scoreBoard;
     [SerializeField] private LevelCompleteScript levelCompleteScript;
     public GameObject MenuBoard;
@@ -23,9 +23,9 @@ public class ScoreTracker : MonoBehaviour
             
 
             Debug.Log("You Won");
-
-            gameStatusBoard.SetActive(true);
-
+            if(ReloadGame != null) { 
+            ReloadGame.SetActive(true);
+            }
             scoreBoard.SetActive(false);
             MenuBoard.SetActive(true);
             levelCompleteScript.OnLevelOnCompleteFunc();
